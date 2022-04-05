@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+h1, h2{
+    color: #1B1B1B;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.waffle-title{
+    margin: 0;
+}
+
+ul, ol, li, p{
+    color: #39393A;
+}
+
+body{
+    margin: 40px 100px;
+    background: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main{
+    overflow: auto;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+main{
+    padding: 35px;
+}
+
+.waffle{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.recipe-header{
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.recipe-header figcaption{
+    text-align: right;
+    margin-right: 50px;
+    color: #8F8F8F;
+    font-size: 12px;
+}
+
+.waffle-title{
+    margin: 50px 0 20px 0;
+}
+
+.div-waffle{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden
+}
+
+.waffle-img{
+    width: 1600px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left center;
+    border-radius: 50px;
+}
+
+.recipe-main-list li{
+    margin-left: 20px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.info-add p{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.recipe-footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.recipe-footer i{
+    color: purple;
+}
+
+.recipe-footer a{
+    text-transform: uppercase;
+}
+
+.recipe-footer a:hover{
+    transition: all ease-in-out .2s;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1700.98px) {
+    .waffle-img{
+        width: 90%;
+        height: 30%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 950.98px) {
+    .waffle-img{
+        width: 90%;
+        height: auto;
+    }
+}
